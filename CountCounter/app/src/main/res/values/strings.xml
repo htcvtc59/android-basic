@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Count Counter</string>
+    <item name="action_settings" type="id">Settings</item>
+</resources>
