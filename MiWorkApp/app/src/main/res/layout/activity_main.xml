@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.miworkapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/numbers"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Numbers"
+            android:background="@android:color/holo_blue_dark"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/family"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Fimaly"
+            android:background="@android:color/holo_orange_light"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/colors"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Colors"
+            android:background="@android:color/holo_orange_dark"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/phrases"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Phrases"
+            android:background="@android:color/holo_red_light"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+
+    <!--&lt;!&ndash; Numbers category &ndash;&gt;-->
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/category_numbers">-->
+        <!--<TextView-->
+            <!--android:id="@+id/numbers"-->
+            <!--style="@style/CategoryStyle"-->
+            <!--android:background="?android:attr/selectableItemBackground"-->
+            <!--android:text="@string/category_numbers" />-->
+    <!--</FrameLayout>-->
+
+    <!--&lt;!&ndash; Family category &ndash;&gt;-->
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/category_family">-->
+        <!--<TextView-->
+            <!--android:id="@+id/family"-->
+            <!--style="@style/CategoryStyle"-->
+            <!--android:background="?android:attr/selectableItemBackground"-->
+            <!--android:text="@string/category_family" />-->
+    <!--</FrameLayout>-->
+
+    <!--&lt;!&ndash; Colors category &ndash;&gt;-->
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/category_colors">-->
+        <!--<TextView-->
+            <!--android:id="@+id/colors"-->
+            <!--style="@style/CategoryStyle"-->
+            <!--android:background="?android:attr/selectableItemBackground"-->
+            <!--android:text="@string/category_colors" />-->
+    <!--</FrameLayout>-->
+
+    <!--&lt;!&ndash; Phrases category &ndash;&gt;-->
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/category_phrases">-->
+        <!--<TextView-->
+            <!--android:id="@+id/phrases"-->
+            <!--style="@style/CategoryStyle"-->
+            <!--android:background="?android:attr/selectableItemBackground"-->
+            <!--android:text="@string/category_phrases" />-->
+    <!--</FrameLayout>-->
+
+</android.support.constraint.ConstraintLayout>
