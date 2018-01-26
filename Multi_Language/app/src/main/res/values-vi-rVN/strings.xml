@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multi_Language</string>
+    <string name="hint_Email">Nhập Email</string>
+    <string name="hint_Hoten">Nhập Họ Tên</string>
+    <string name="hint_Sdt">Nhập số điện thoại</string>
+    <string name="text_TieuDe">Thông Tin</string>
+    <string name="button_XacNhan">Xác Nhận</string>
+    <string name="txtXinChao">Xin Chào</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DemoIntent</string>
+
+    <string-array name="course_array">
+        <item>Java</item>
+        <item>NodeJs</item>
+        <item>Html</item>
+        <item>Css</item>
+        <item>Python</item>
+    </string-array>
+</resources>

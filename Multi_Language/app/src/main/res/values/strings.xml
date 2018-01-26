@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Multi_Language</string>
+    <string name="button_XacNhan">confirm</string>
+    <string name="text_TieuDe">information form</string>
+    <string name="hint_Hoten">input fullname</string>
+    <string name="hint_Email">input email</string>
+    <string name="hint_Sdt">input phone number</string>
+    <string name="txtXinChao">Hello</string>
+</resources>

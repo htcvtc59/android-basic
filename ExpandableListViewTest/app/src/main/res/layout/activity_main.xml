@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.os.expandablelistviewtest.MainActivity">
+
+    <ExpandableListView
+        android:childDivider="#66ce47"
+        android:listSelector="#ff5900"
+        android:divider="#fff0"
+        android:dividerHeight="2dp"
+        android:id="@+id/expand_activities_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ExpandableListView>
+
+</LinearLayout>
