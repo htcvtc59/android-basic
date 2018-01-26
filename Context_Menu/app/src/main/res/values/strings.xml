@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Context_Menu</string>
-    <string name="action_setttings">Settings</string>
-    <color name="clrred">#FF0000</color>
-    <color name="clrgreen">#008000</color>
-    <color name="clrblue">#000080</color>
-</resources>

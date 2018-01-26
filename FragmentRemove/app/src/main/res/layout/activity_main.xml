@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.os.fragmentremove.MainActivity">
+
+
+    <Button
+        android:onClick="AddA"
+        android:id="@+id/buttonAddA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Add A" />
+
+    <Button
+        android:onClick="AddB"
+        android:id="@+id/buttonAddB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/buttonAddA"
+        android:text="Add B" />
+
+    <Button
+        android:onClick="AddC"
+        android:id="@+id/buttonAddC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/buttonAddB"
+        android:text="Add C" />
+
+    <Button
+        android:onClick="RemoveA"
+        android:id="@+id/buttonRemoveA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonAddA"
+        android:text="RemoveA" />
+
+    <Button
+        android:onClick="RemoveB"
+        android:id="@+id/buttonRemoveB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonAddB"
+        android:layout_toEndOf="@+id/buttonAddA"
+        android:text="RemoveB" />
+
+    <Button
+        android:onClick="RemoveC"
+        android:id="@+id/buttonRemoveC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonAddC"
+        android:layout_toEndOf="@+id/buttonRemoveB"
+        android:text="RemoveC" />
+
+    <Button
+        android:onClick="Back"
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Back" />
+
+    <Button
+        android:onClick="Pop"
+        android:id="@+id/buttonPopA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/buttonBack"
+        android:text="Pop A" />
+
+    <FrameLayout
+        android:id="@+id/fragContent"
+        android:layout_below="@id/buttonRemoveA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+</RelativeLayout>
